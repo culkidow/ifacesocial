@@ -29,7 +29,7 @@
     "cleanup-translations": "tsx scripts/cleanup-translations.ts",
     "prepare-translation-status": "tsx scripts/prepare-translation-status.ts",
     "generate-pwa-icons": "tsx scripts/generate-pwa-icons.ts",
-    "postinstall": ""nuxi prepare\"",
+    "postinstall": ""nuxi prepare"",
     "release": "stale-dep && bumpp && tsx scripts/release.ts"
   },
   "dependencies": {
